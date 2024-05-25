@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 20px;
+    background-color: #524D4D;
+    ;
+}
+
+.left{
+    
+    width: 100px;
+    height: 70px;
+    align-items: center;
+}
+
+
+.right {
+    display: flex;
+    gap: 26px;
+}
+
+.txt:link,
+.txt:visited {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color:#fff;
+    cursor: pointer;
+    padding-top: 12px;
+}
+
+.txt:hover {
+    border-bottom: 4px solid #FFA500;
+    border-radius: 4px;
+}
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    background-color: #FFA500;
+    color: #fff;
+    font-size: 16px;
+    padding: 9px 20px;
+    border-radius: 9px; 
+    border: 1px solid black;
+    
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #ffcd6f;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    
+}
+
+.icon{
+    color: #fff;
+    width: 36px;
+    height: 36px;
+}
+
+
+/**/
+
+
+.classes-banner{
+    background: url(../../img/nutrition-banner.png);
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.content-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 80px;
+    margin-top: 40px;
+}
+
+
+.classes-banner-heading{
+    /* font-family: Ubuntu; */
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56.3px;
+    text-align: center;
+    color: black;  
+    margin-top: 30px;    
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+ 
+.banner-link:link,
+.banner-link:visited{
+    text-decoration: none;
+    background-color:#FFA500;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px 13px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+
+.banner-link:hover,
+.banner-link:active{
+    background-color:  #ffcd6f;
+} 
+
+
+
+/**/
+.taniner{
+    width: 100vw;
+    height: auto;
+    padding: 40px;
+    background: #fff;
+    padding-bottom: 60px;
+}
+
+.tanning-heading{
+    font-size: 50px;
+    color: black;
+    /* border-bottom: 2px solid black;      */
+}
+
+.traning-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 70px;
+    margin-top: 40px;
+}
+
+.trainer-name{
+    text-decoration: none;
+    background-color: #4D4848;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px 4px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/**/
+
+.merch-banner{
+    background: url(../../img/merchandies-banner.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 40px;
+}
+
+
+/*footer*/
+
+.footer-first{
+    background-color: #524D4D;
+    padding: 50px;
+}
+
+.main-footer{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 0.6fr;
+    gap: 10px;
+}
+
+.footer-logo-sec{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-logo{
+    width: 288px;
+    height: 105px;
+}
+
+.footer-logo-txt{
+    font-family: 'Radio Canada';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #FFA500;  
+}
+
+.foooter-middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+}
+
+.footer-third-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-heading{
+    font-family: Radio Canada;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-txt{
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    /* line-height: 28.8px; */
+    
+
+}
+
+.footer-last-heading{
+    font-family: Radio Canada;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFA500;
+    border-bottom: 2px solid #FFA500;
+    margin-bottom: 9px;
+}
+.btn-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+}
+.footer-btn{
+    text-decoration: none;
+    background-color: #8D8383;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px;
+    border-radius: 4px;
+
+}
+.fb{
+    background-color: #FFA500; 
+}
+
+.fb-last{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom{
+    width: 1500x;
+    height: 50px;
+    top: 4355px;
+    left: -2px;
+    gap: 0px;
+    opacity: 0px;
+
+    background-color: #FFA500;
+}
+
+.footer-bottom-txt{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+
+}
+
+
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .nav-bar {
+        display: flex;
+        align-items: flex-start;
+        width:  600px;
+    }
+
+    .right {
+        display: none;
+        padding-top: 50px;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+
+    .txt:link,
+    .txt:visited {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .txt:hover{
+       color: blue;
+    }
+
+    .btn:link,
+    .btn:visited {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .nav-bar.active .right {
+        display: flex;
+    }
+    
+
+
+    /*banner*/
+     
+    .classes-banner{
+      width: 600px;
+      height: auto;
+    }   
+
+    .content-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    /***merch-banner***/
+
+    .merch-banner{
+        width: 100vw;
+        height: auto;
+    
+    }
+
+
+    .taniner{
+      width: 600px;
+      height: auto;
+    }
+
+    .traning-content{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    /**/
+    
+    /*footer*/
+
+    footer{
+        width: 600px;
+    }
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+
+    .footer-bottom-txt{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    
+    }
+
+    .footer-logo-sec{
+        align-items: center;
+        text-align: center;
+    }
+
+    .foooter-middle{
+     gap: 10px;   
+     align-items: center;
+     text-align: center;
+    }
+
+    
+    .footer-heading{
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+
+    .footer-bottom-txt{
+        font-size: 16px;
+       font-weight: 500;
+    
+    }
+
+    
+}
+
+

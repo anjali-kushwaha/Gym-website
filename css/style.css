@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 20px;
+    background-color: #524D4D;
+    ;
+}
+
+.left{
+    
+    width: 100px;
+    height: 70px;
+    align-items: center;
+}
+
+
+.right {
+    display: flex;
+    gap: 26px;
+}
+
+.txt:link,
+.txt:visited {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color:#fff;
+    cursor: pointer;
+    padding-top: 12px;
+}
+
+.txt:hover {
+    border-bottom: 4px solid #FFA500;
+    border-radius: 4px;
+}
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    background-color: #FFA500;
+    color: #fff;
+    font-size: 16px;
+    padding: 9px 20px;
+    border-radius: 9px; 
+    border: 1px solid black;
+    
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #ffcd6f;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    
+}
+
+.icon{
+    color: #fff;
+    width: 36px;
+    height: 36px;
+}
+
+
+
+/**/
+.banner{
+    background: url(../img/banner.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.banner-txt{
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    }
+
+.banner-heading{
+    width: 506px;
+    height: 174px;
+
+    font-family: 'Radio Canada';
+    color: #fff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 108px;
+    text-align: left;
+    margin-bottom: 100px; 
+}
+
+.banner-p{
+    color: #fff;
+    width: 421px;
+    height: 51px;
+    /* top: 449px;
+    left: 604px;
+    gap: 0px; */
+    opacity: 0px;
+    font-family: Radio Canada;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    margin-bottom: 50px;  
+}
+
+
+.banner-btn:link,
+.banner-btn:visited{
+    text-decoration: none;
+    background-color: #FFA500;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px 13px;
+    border-radius: 4px;
+        
+}
+
+.banner-btn:hover,.banner-btn:active{
+    background-color: #ffcd6f;
+    color: black;
+    font-weight: 500;
+}
+
+
+.banner-btn-sec:link,
+.banner-btn-sec:visited{
+    text-decoration: none;
+    background-color: #524D4D;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px 13px;
+    border-radius: 4px;
+}
+
+
+.banner-btn-sec:hover,.banner-btn-sec:active{
+    background-color: #ffcd6f;
+    color: black;
+    font-weight: 500;
+}
+
+
+/**/
+
+.third-section{
+    padding: 50px;
+}
+
+.icon-section{
+    display: flex;
+    gap: 100px;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-icon{
+    width: 280px;
+    height: 280px;
+    top: 987px;
+    left: 276px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 40px;
+
+}
+
+.icon-f{
+    border-right: 6px solid black;
+}
+
+
+.icon-heading{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+}
+.line {
+    width: 100%; 
+    height: 6px;
+    background-color: black; 
+  }
+  
+
+
+
+
+
+/**/
+
+
+.subscription{
+    background: url(../img/subscription.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+           
+}
+
+.sub-heading{
+    /* font-family: Ubuntu; */
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56.3px;
+    text-align: center;
+    color: #FFA500;  
+    margin-top: 30px;    
+}
+
+.sub-plan{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin: 40px auto;
+    margin-top: 100px;
+    max-width: 1300px;
+    
+}
+
+
+.plan-content{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 280px;
+    height: 402px;
+    top: 1790px;
+    left: 205px;
+    border-radius: 6px;
+    opacity: 0px;
+    padding: 20px;
+    align-items: center;
+    background: #FFFFFF33;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    
+
+}
+
+.plan-heading{
+    font-family: 'Radio Canada';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    color: #FFA500;
+
+}
+
+.plan-txt{
+    font-family: Radio Canada;
+    font-size: 30px;
+    font-weight: 500;
+    /* line-height: 48px; */
+    text-align: left;
+
+}
+
+.sec-head{
+    margin-top: 29px;
+}
+
+.plan-btn:link,
+.plan-btn:visited{
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: #524D4D;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 20px;
+    border-radius: 6px;
+    
+}
+
+
+.plan-btn:hover,.plan-btn:active{
+    background-color: #ffcd6f;
+    color: black;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+
+/**/
+
+
+.club {
+    /* width: 1700px;
+    height: 409px; */
+    position: relative;
+}
+
+.club-img {
+    position: absolute;
+    width: 1520px;
+    object-fit: cover;
+    z-index: 1;
+    
+}
+
+.club-main-goal{
+    background-color: #FFA500;
+    width: 1520px;
+    height: 700px;
+    top: 2822px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.fitness-club {
+    position: absolute;
+    padding: 40px;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+    top: 40%; 
+    left: 20%;
+    display: flex;
+    background-color: #fff;
+    gap: 20px;
+    border-radius: 4px 0px 0px 0px;
+    z-index: 2;
+}
+
+.fitness-club-goal {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.club-heading {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.club-txt {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+
+
+
+
+/*goals*/
+
+.goals{
+    background-color: black;
+    padding: 40px;
+}
+
+.quotes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    max-width: 15000px;
+}
+
+.quote{
+    margin-top: 50PX;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.goal-img{
+    width: 250px;
+    height: 350px;
+    top: 3360px;
+    left: 623px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.goal-txt{
+    width: 350px;
+    height: 126px;
+    text-align:center ;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #FFA500;
+}
+
+/*footer*/
+
+.footer-first{
+    background-color: #524D4D;
+    padding: 50px;
+}
+
+.main-footer{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 0.6fr;
+    gap: 10px;
+}
+
+.footer-logo-sec{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-logo{
+    width: 288px;
+    height: 105px;
+}
+
+.footer-logo-txt{
+    font-family: 'Radio Canada';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #FFA500;  
+}
+
+.foooter-middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+}
+
+.footer-third-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-heading{
+    font-family: Radio Canada;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-txt{
+    font-family: Radio Canada;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    /* line-height: 28.8px; */
+    
+
+}
+
+.footer-last-heading{
+    font-family: Radio Canada;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFA500;
+    border-bottom: 2px solid #FFA500;
+    margin-bottom: 9px;
+}
+.btn-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+}
+.footer-btn{
+    text-decoration: none;
+    background-color: #8D8383;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px;
+    border-radius: 4px;
+
+}
+.fb{
+    background-color: #FFA500; 
+}
+
+.fb-last{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom{
+    width: 1500x;
+    height: 50px;
+    top: 4355px;
+    left: -2px;
+    gap: 0px;
+    opacity: 0px;
+
+    background-color: #FFA500;
+}
+
+.footer-bottom-txt{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+
+}
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .nav-bar {
+        display: flex;
+        align-items: flex-start;
+        width: 580px;
+    }
+
+    .right {
+        display: none;
+        padding-top: 50px;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+
+    .txt:link,
+    .txt:visited {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .txt:hover{
+       color: blue;
+    }
+
+    .btn:link,
+    .btn:visited {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .nav-bar.active .right {
+        display: flex;
+    }
+    
+
+
+    /*banner*/
+     
+    .banner{
+      width: 580px;
+    }   
+    
+    
+    /*club*/
+
+    .third-section{
+        width: 580px;
+        height: auto;
+        background: #FFA50052;
+
+    }
+
+    .icon-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .icon-f{
+        border: none;
+    }
+
+    .line{
+        display: none;
+    }
+
+
+    /* subscription */
+
+    .subscription{
+    width: 580px;
+    height: auto;
+    top: 764px;
+    gap: 0px;
+    opacity: 0px;
+    }
+
+    .sub-plan{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+     
+    
+     /**/
+    
+    .club{
+        width: 580px;
+        height: auto; 
+
+    }
+
+    .club-img {
+    width: 580px;
+    height: 300px;
+    
+    } 
+
+        
+    .club-main-goal{
+        background-color: #FFA500;
+        width: 580px;
+        height: 900px;
+        top: 2822px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+   
+    .fitness-club { 
+        height: 680px;       
+        padding: 30px;
+        max-width: 400px;
+        top: 20%; 
+        left: 14%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+
+
+    /*quotes*/
+
+    .quotes{
+        display: flex;
+        flex-direction: column;
+    }
+     
+
+    /*goals*/
+
+    .goals{
+        width: 580px;
+    }
+
+    /*footer*/
+
+    footer{
+        width: 580px;
+    }
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+
+    .footer-bottom-txt{
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    
+    }
+
+    .footer-logo-sec{
+        align-items: center;
+        text-align: center;
+    }
+
+    .foooter-middle{
+     gap: 10px;   
+     align-items: center;
+     text-align: center;
+    }
+
+    
+    .footer-heading{
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+
+    .footer-bottom-txt{
+        font-size: 16px;
+       font-weight: 500;
+    
+    }
+
+    
+}
+
+
+@media (max-width: 480px){
+    
+    .subscription{
+        width: auto;
+        height: auto;
+        top: 764px;
+        gap: 0px;
+        opacity: 0px;
+        }
+}
