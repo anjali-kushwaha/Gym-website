@@ -74,6 +74,95 @@ body{
     height: 36px;
 }
 
+/*form*/
+
+
+.hidden {
+    display: none;
+}
+
+.join-form {
+    position: fixed;
+    width: 800px;
+    max-height: 80vh; 
+    /* height: auto; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow-y: auto;
+    
+}
+
+
+.form-content{
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffcd6f;
+    
+}
+
+.form-heading{
+     background-color: #8D8383; 
+}
+
+.join-form h2{
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 63px;
+    text-align: center;
+}
+
+.join-form label {
+    margin-bottom: 5px;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36.77px;
+    text-align: left;
+}
+
+.join-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #8D8383;
+}
+
+.join-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8D8383;
+}
+
+
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.radio-group-for-tranning{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.radio-group input, .checkbox-group input {
+    margin-right: 5px;
+}
+
+
+
 
 
 /**/
@@ -554,7 +643,7 @@ body{
     .nav-bar {
         display: flex;
         align-items: flex-start;
-        width: 580px;
+        width: 707px;
     }
 
     .right {
@@ -596,14 +685,14 @@ body{
     /*banner*/
      
     .banner{
-      width: 580px;
+      width: 707px;
     }   
     
     
     /*club*/
 
     .third-section{
-        width: 580px;
+        width: 707px;
         height: auto;
         background: #FFA50052;
 
@@ -627,7 +716,7 @@ body{
     /* subscription */
 
     .subscription{
-    width: 580px;
+    width: 707px;
     height: auto;
     top: 764px;
     gap: 0px;
@@ -644,13 +733,13 @@ body{
      /**/
     
     .club{
-        width: 580px;
+        width: 707px;
         height: auto; 
 
     }
 
     .club-img {
-    width: 580px;
+    width: 707px;
     height: 300px;
     
     } 
@@ -658,7 +747,7 @@ body{
         
     .club-main-goal{
         background-color: #FFA500;
-        width: 580px;
+        width: 707px;
         height: 900px;
         top: 2822px;
         gap: 0px;
@@ -669,9 +758,9 @@ body{
     .fitness-club { 
         height: 680px;       
         padding: 30px;
-        max-width: 400px;
+        max-width: 707px;
         top: 20%; 
-        left: 14%;
+        left: 20%;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -690,13 +779,15 @@ body{
     /*goals*/
 
     .goals{
-        width: 580px;
+        width: 707px;
     }
+
+
 
     /*footer*/
 
     footer{
-        width: 580px;
+        width: 707px;
     }
 
     .main-footer{

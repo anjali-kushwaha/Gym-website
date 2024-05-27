@@ -23,4 +23,17 @@ function showImage(index) {
     
 showImage(currentIndex);
 setInterval(nextImage, 2000);
+
+
+const joinButton = document.querySelector('.btn');
+const joinForm = document.getElementById('join-form');
+const cancelButton = document.querySelector('.cancel-btn');
+
+joinButton.addEventListener('click', () => {
+    joinForm.classList.toggle('hidden');
+});
+
+cancelButton.addEventListener('click', () => {
+    joinForm.classList.add('hidden');
+});
    

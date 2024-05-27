@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>Product</title>
 </head>
 
 <body>
@@ -24,10 +24,10 @@
         </div>
 
         <div class="right">
-            <a href="#" class="txt">Home</a>
-            <a href="#" class="txt">Classes</a>
+            <a href="../../index.html" class="txt">Home</a>
+            <a href="../classes.html" class="txt">Classes</a>
             <a href="#" class="txt">Product</a>
-            <a href="#" class="txt">Blog</a>
+            <a href="../blog/blog.html" class="txt">Blog</a>
             <a href="#" class="btn">Join Us</a>
 
 
@@ -41,6 +41,59 @@
             </svg>
 
         </div>
+
+
+        <div id="join-form" class="join-form hidden">
+            <form>
+                <span class="form-heading">
+                    <h2 class="form-heading">SUBSCRIPTION PLAN</h2>
+                </span>
+                <div class="form-content">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label>Duration:</label>
+                    <div class="radio-group">
+                        <!-- <label for="name">Duration:</label> -->
+                        <input type="radio" id="monthly" name="duration" value="monthly" required>
+                        <label for="monthly">Monthly</label>
+                        <input type="radio" id="yearly" name="duration" value="yearly" required>
+                        <label for="yearly">Yearly</label>
+                    </div>
+
+                    <label>Mode of payment:</label>
+                    <div class="radio-group">
+                        <!-- <label for="name">Mode of payment:</label> -->
+                        <input type="radio" id="cash" name="mode  of payment" value="cash" required>
+                        <label for="monthly">Cash</label>
+                        <input type="radio" id="online" name="mode of payment" value="online" required>
+                        <label for="yearly">Online</label>
+                    </div>
+
+                    <label>Personal training:</label>
+                    <div class="radio-group-for-tranning">
+                        <span>
+                            <input type="radio" id="cash" name="mode  of payment" value="cash" required>
+                            <label for="monthly">Required</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="online" name="mode of payment" value="online" required>
+                            <label for="yearly">Not Required</label>
+                        </span>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="#">terms and conditions</a></label>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+
     </nav>
     <main>
         <section class="classes-banner">

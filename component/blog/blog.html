@@ -24,9 +24,9 @@
         </div>
 
         <div class="right">
-            <a href="#" class="txt">Home</a>
-            <a href="#" class="txt">Classes</a>
-            <a href="#" class="txt">Product</a>
+            <a href="../../index.html" class="txt">Home</a>
+            <a href="../classes.html" class="txt">Classes</a>
+            <a href="../product/product.html" class="txt">Product</a>
             <a href="#" class="txt">Blog</a>
             <a href="#" class="btn">Join Us</a>
 
@@ -40,6 +40,57 @@
                     d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
             </svg>
 
+        </div>
+
+        <div id="join-form" class="join-form hidden">
+            <form>
+                <span class="form-heading">
+                    <h2 class="form-heading">SUBSCRIPTION PLAN</h2>
+                </span>
+                <div class="form-content">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label>Duration:</label>
+                    <div class="radio-group">
+                        <!-- <label for="name">Duration:</label> -->
+                        <input type="radio" id="monthly" name="duration" value="monthly" required>
+                        <label for="monthly">Monthly</label>
+                        <input type="radio" id="yearly" name="duration" value="yearly" required>
+                        <label for="yearly">Yearly</label>
+                    </div>
+
+                    <label>Mode of payment:</label>
+                    <div class="radio-group">
+                        <!-- <label for="name">Mode of payment:</label> -->
+                        <input type="radio" id="cash" name="mode  of payment" value="cash" required>
+                        <label for="monthly">Cash</label>
+                        <input type="radio" id="online" name="mode of payment" value="online" required>
+                        <label for="yearly">Online</label>
+                    </div>
+
+                    <label>Personal training:</label>
+                    <div class="radio-group-for-tranning">
+                        <span>
+                            <input type="radio" id="cash" name="mode  of payment" value="cash" required>
+                            <label for="monthly">Required</label>
+                        </span>
+                        <span>
+                            <input type="radio" id="online" name="mode of payment" value="online" required>
+                            <label for="yearly">Not Required</label>
+                        </span>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="#">terms and conditions</a></label>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+                </div>
+            </form>
         </div>
     </nav>
 
@@ -58,7 +109,96 @@
                     including versions of Lorem Ipsum</p>
             </div>
         </section>
+
+        <section class="second-blog">
+            <div class="sec-blog-content">
+                <div class="sec-blog-txt">
+                    <h3 class="heading">BENEFITS OF A HEALTHY DIET</h3>
+                    <ul>
+                        <li class="points">May help you live longer.</li>
+                        <li class="points">Keeps skin, teeth, and eyes healthy.</li>
+                        <li class="points">Supports muscles.</li>
+                        <li class="points">Boosts immunity.</li>
+                        <li class="points">Strengthens bones.</li>
+                        <li class="points">Supports healthy pregnancies and breastfeeding.</li>
+                        <li class="points">Helps the digestive system function.</li>
+                    </ul>
+                </div>
+                <img class="sec-img" src="../../img/food.png">
+            </div>
+        </section>
     </main>
+
+    <section class="first-blog third">
+        <div class="blog-content third-blog-content">
+            <p class="bog-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centrelease of Letraset
+                sheets
+                containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                PageMaker
+                including versions of Lorem Ipsum</p>
+            <img class="blog-img" src="../../img/p-1.png" />
+        </div>
+    </section>
+
+
+    <footer>
+        <section class="footer-first">
+            <div class="main-footer">
+                <div class="footer-logo-sec">
+                    <img class="footer-logo" src="../../img/fitness logo 5.png">
+                    <p class="footer-logo-txt">Prioritize Your Fitness Goals
+                        with our world class services</p>
+                </div>
+                <div class="foooter-middle">
+                    <div class="footer-third-sec">
+                        <h5 class="footer-heading">COMPANY</h5>
+                        <p class="footer-txt">About</p>
+                        <p class="footer-txt">Careers</p>
+                        <p class="footer-txt">Blogs</p>
+                    </div>
+
+                    <div class="footer-third-sec">
+                        <h5 class="footer-heading">CONTACT</h5>
+                        <p class="footer-txt">Help/FAQs</p>
+                        <p class="footer-txt">Press</p>
+                        <p class="footer-txt">Moblie</p>
+                    </div>
+
+                    <div class="footer-third-sec">
+                        <h5 class="footer-heading">MORE</h5>
+                        <p class="footer-txt">program</p>
+                        <p class="footer-txt">Plans</p>
+                        <p class="footer-txt">Method</p>
+                    </div>
+                </div>
+
+                <div class="footer-last">
+                    <h5 class="footer-last-heading">Popular Tags</h5>
+                    <div class="btn-footer">
+                        <a class="footer-btn">ABS</a>
+                        <a class="footer-btn">Workout</a>
+                        <a class="footer-btn fb">Nutrition</a>
+                        <a class="footer-btn">GYM</a>
+                        <a class="footer-btn">Boxing</a>
+                        <a class="footer-btn fb">Trainers</a>
+                        <a class="footer-btn fb fb-last">Facilities</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-bottom">
+            <p class="footer-bottom-txt">Copy Right All Rights Reserved</p>
+        </section>
+    </footer>
+
+
+    <script src="../../js/app.js"></script>
+
 
 </body>
 
